@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de calculo de IMC">
+    <meta name="keywords" content="peso, altura, imc, calcular imc, calculo imc, medidas, dieta">
+    <meta name="author" cotent="Marcelo dos Santos Paulo">
+    <link rel="shortcut icon" href="/img/icone-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/responsividade.css">
+    <title>Calcule seu IMC</title>
+</head>
+
+<body>
+    <header id="titulo">
+        <h1>Sejam bem vindos a calculadora de IMC!</h1>
+    </header>
+    <section id="principal">
+
+        <div id="container">
+            <div id="calculadora">
+                <h3>Calcule seu IMC</h3>
+                <p>Digite seus dados nos campos abaixo e calcule para obter o seu resultado de índice de massa corporal
+                    e saber se você está no peso ideal.</p>
+
+                <form id="formulario" onclick="calcularImc()">
+                    <label for="peso">Peso (ex.: 69.2)</label>
+                    <input id="peso" type="text" placeholder="Digite seu peso">
+                    <label for="altura">Altura (ex.: 1.70)</label>
+                    <input id="altura" type="text" placeholder="Digite sua altura">
+                    <button class="calcular" type="submit">Calcular</button>
+                </form>
+                <div id="resultado"></div>
+                <button class="btn-back" onclick="limpaTudo()">Limpar</button>
+            </div>
+        </div>
+        <div id="texto-resultado">
+            <p id="paragrafo-txt">O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive
+                pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e
+                da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o
+                trabalho de profissionais de saúde e de educadores físicos.</p>
+        </div>
+        </div>
+    </section>
+    <footer id="rodape">
+        <p>Desenvolvido por Marcelo dos Santos</p>
+        <a href="https://github.com/marcelomdsp" target="_blank" rel="noopener noreferrer"><img class="logo"
+                src="/img/icone-github.png" alt=""></a>
+
+        <a href="https://www.linkedin.com/in/marcelo-santos-089471291/" target="_blank" rel="noopener noreferrer"><img
+                class="logo" src="/img/icone-linkedin.png" alt=""></a>
+
+        <a href="https://api.whatsapp.com/send?phone=5521996553987&text=Ol%C3%A1!"
+            target="_blank" rel="noopener noreferrer"><img class="logo" src="/img/icone-whatsapp.png" alt=""></a>
+
+        <a href="https://www.instagram.com/marcelo_dsp/" target="_blank" rel="noopener noreferrer"><img class="logo"
+                src="/img/icone-instagram.png" alt=""></a>
+
+    </footer>
+    <script src="/JS/main.js"></script>
+</body>
+
+</html>

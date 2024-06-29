@@ -1,0 +1,45 @@
+@media (max-width: 850px) {
+    body {
+        padding: 20px;
+        backdrop-filter: blur(4px);
+    }
+
+    #principal {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    input {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    #calculadora {
+        width: 300px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p,
+    label,
+    input,
+    button,
+    a {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+}
