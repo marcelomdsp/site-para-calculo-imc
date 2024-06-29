@@ -21,6 +21,7 @@ A Calculadora de IMC foi desenvolvida para ajudar os usuários a calcular seu Í
    - Digite seu peso em quilogramas no campo "Peso".
    - Digite sua altura em metros no campo "Altura".
    - Clique em "Calcular" para obter seu IMC e a categoria correspondente.
+   - Deploy: https://calculeseuimc-delta.vercel.app/
 
 ## Tecnologias
 
