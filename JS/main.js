@@ -12,8 +12,8 @@ function calcularImc() {
         mostraBotaoLimpar(); //Chama função que mostra o botão de limpar
 
         //Variáveis que recebem os valores do formulário e os convertem o Typeof para (Number) 
-        const peso = Number(inputPeso.value);
-        const altura = Number(inputAltura.value);
+        const peso = Number(inputPeso.value.replace(",", "."));
+        const altura = Number(inputAltura.value.replace(",", "."));
 
         /*
         Condições qe avaliam o que o usuário digitou e retorna (peso ou altura inválida) 
